@@ -1,3 +1,17 @@
+# NEWS for rsync UNRELASED
+
+## Changes in this version:
+
+### BUG FIXES:
+
+### ENHANCEMENTS:
+
+- Recognize many more sockopt inputs, including string inputs.
+  e.g. TCP_CONGESTION=bbr, TCP_FASTOPEN, TCP_FASTOPEN_CONNECT, IP_FREEBIND,
+  SO_INCOMING_CPU, TCP_QUICKACK
+
+### DEVELOPER RELATED:
+
 # NEWS for rsync 3.3.0 (6 Apr 2024)
 
 ## Changes in this version:
